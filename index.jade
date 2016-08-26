@@ -1,0 +1,175 @@
+//output:index.html
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    meta(
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      )
+    title Matthew Robertson
+    link(
+      type="text/css"
+      rel="stylesheet"
+      href="css/style.css"
+      )
+    link(
+      href="http://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+      )
+  body
+    //-
+      navbar
+    div.navbar-fixed
+      nav
+        div.nav-wrapper
+          a(href="#" class="brand-logo") Matthew Robertson
+          a(href="#" data-activates="mobile-demo" class="button-collapse")
+            i.material-icons menu
+          ul.right.hide-on-med-and-down
+            li
+              a(href="") About
+            li
+              a(href="") Skills
+            li
+              a(href="") My Work
+            li
+              a(href="") Contact
+          ul(class="side-nav" id="mobile-demo")
+            li
+              a(href="") About
+            li
+              a(href="") Skills
+            li
+              a(href="") My Work
+            li
+              a(href="") Contact
+      //-
+        hero image
+    div
+      img(src="img/me.jpg").responsive-img
+      
+    div.container
+      div#about
+      div#Skills.row
+        div.col.s6
+          table
+            tbody
+              tr
+                td HTML
+                td
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+              tr
+                td CSS
+                td
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+              tr
+                td JavaSript
+                td
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+              tr
+                td Jade
+                td
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+              tr
+                td Sass
+                td
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+              tr
+                td jQuery
+                td
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+              tr
+                td Node.js
+                td
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+              tr
+                td BootStrap
+                td
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+        div.col.s6
+          table
+            tbody
+              tr
+                td Git
+                td
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+              tr
+                td GitHub
+                td
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+              tr
+                td React
+                td
+                  i.small.material-icons stars
+              tr
+                td Material Design
+                td
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+              tr
+                td Responsive Design
+                td
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+              tr
+                td Photoshop
+                td
+                  i.small.material-icons stars
+                  i.small.material-icons stars
+              
+        //-
+          examples of work
+      div#my-work.row
+        div.col.s12.m6
+          div.card
+            div.card-image
+              img(
+                src="img/tic-tac-toe.png"
+                )
+              span.card-title Tic Tac Toe
+            div.card-content
+              p I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+            div.card-action
+              a(href="#").blue-text.text-darken-4 View the code
+              
+          
+        div.col.s12.m6
+          div.card
+            div.card-image
+              img(
+                src="img/tic-tac-toe.png"
+                )
+              span.card-title Tic Tac Toe
+            div.card-content
+              p I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+            div.card-action
+              a(href="#") View the code  
+            
+    script(type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js")
+    script(type="text/javascript" src="js/materialize.min.js")
+    script(src="js/index.js")
