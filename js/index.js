@@ -1,7 +1,7 @@
 $( document ).ready(function(){
   var options = [
-    {selector: '.card', offset: 200, callback: function(el) {
-      Materialize.fadeInImage($(el));
+    {selector: '.material-icons', offset: 200, callback: function(el) {
+      Materialize.showStaggeredList($(el));
      } }
   ];
   Materialize.scrollFire(options);

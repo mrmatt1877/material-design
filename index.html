@@ -10,181 +10,370 @@
   </head>
   <body>
     <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper"><a href="#" class="brand-logo">Matthew Robertson</a><a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <nav class="blue-grey">
+        <div class="nav-wrapper"><a href="#" id="resume" class="brand-logo">Matthew Robertson</a><a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="">About</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">My Work</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#my-work">My Work</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
           <ul id="mobile-demo" class="side-nav">
-            <li><a href="">About</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">My Work</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#my-work">My Work</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
     </div>
-    <div class="s12 col center-align my-logo"><img src="img/logo.gif" class="responsive-img"></div>
+    <div id="hero-img"><img src="img/logo-bg.svg"></div>
     <div class="container">
-      <div id="about"></div>
-      <div id="Skills" class="row">
-        <div class="col s6">
-          <table>
-            <tbody>
-              <tr>
-                <td> 
-                  <h5>HTML</h5>
-                </td>
-                <td><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
-              </tr>
-              <tr>
-                <td> 
-                  <h5>CSS</h5>
-                </td>
-                <td><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
-              </tr>
-              <tr>
-                <td> 
-                  <h5>JavaSript</h5>
-                </td>
-                <td><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
-              </tr>
-              <tr>
-                <td> 
-                  <h5>Jade</h5>
-                </td>
-                <td><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
-              </tr>
-              <tr>
-                <td> 
-                  <h5>Sass</h5>
-                </td>
-                <td><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
-              </tr>
-              <tr>
-                <td> 
-                  <h5>jQuery</h5>
-                </td>
-                <td><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
-              </tr>
-              <tr>
-                <td> 
-                  <h5>Node.js</h5>
-                </td>
-                <td><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
-              </tr>
-              <tr>
-                <td> 
-                  <h5>BootStrap</h5>
-                </td>
-                <td><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
-              </tr>
-            </tbody>
-          </table>
+      <div id="about">
+        <h1 class="hide-on-small-only center-align section">About Me</h1>
+        <h3 class="hide-on-med-and-up center-align section">About Me</h3>
+        <div class="divider"></div>
+        <div id="tilt">
+          <h2 class="hide-on-small-only blue-text text-darken-3">Hi, My name is Matthew Robertson!</h2>
+          <h4 class="hide-on-med-and-up blue-text text-darken-3">Hi, My name is Matthew Robertson!</h4>
         </div>
-        <div class="col s6">
-          <table>
-            <tbody>
-              <tr>
-                <td> 
-                  <h5>Git</h5>
-                </td>
-                <td><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
-              </tr>
-              <tr>
-                <td> 
-                  <h5>GitHub</h5>
-                </td>
-                <td><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
-              </tr>
-              <tr>
-                <td> 
-                  <h5>React</h5>
-                </td>
-                <td><i class="small material-icons">stars</i></td>
-              </tr>
-              <tr>
-                <td> 
-                  <h5>Material Design</h5>
-                </td>
-                <td><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
-              </tr>
-              <tr>
-                <td> 
-                  <h5>Responsive Design</h5>
-                </td>
-                <td><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
-              </tr>
-              <tr>
-                <td> 
-                  <h5>Photoshop</h5>
-                </td>
-                <td><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="section center-align">
+          <p>I am a front end web developer based in North Carolina. I have been developing on the web for about a year now. </p>
+          <p>I have built several personal projects such as a connect four game and Wikipedia viewer, but you can check out those and more below.</p>
+          <p>A graduate of UNCG, my goals for the future are to further my front end and backend programming knowledge with the hopes of building a career.</p><br><img src="img/uncg.png" id="uncg-logo">
+          <p>Thanks for checking out my portfolio, I look forward to hearing from you!</p>
+        </div>
+      </div>
+      <div id="skills" class="row">
+        <h1 class="hide-on-small-only center-align section">My Skills</h1>
+        <h3 class="hide-on-med-and-up center-align section">My Skills</h3>
+        <div class="divider"></div>
+        <div class="card row hide-on-med-and-up">
+          <div class="col s6 center-align">
+            <div class="col s12">
+              <h6>HTML</h6>
+              <div class="amber-text text-darken-4"><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i></div>
+            </div>
+            <div class="col s12">
+              <h6>CSS</h6>
+              <div class="amber-text text-darken-4"><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i></div>
+            </div>
+            <div class="col s12">
+              <h6>JavaSript</h6>
+              <div class="amber-text text-darken-4"><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i></div>
+            </div>
+            <div class="col s12">
+              <h6>Jade</h6>
+              <div class="amber-text text-darken-4"><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i></div>
+            </div>
+            <div class="col s12">
+              <h6>Git</h6>
+              <div class="amber-text text-darken-4"><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i></div>
+            </div>
+            <div class="col s12">
+              <h6>Node.js</h6>
+              <div class="amber-text text-darken-4"><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i></div>
+            </div>
+            <div class="col s12">
+              <h6>Photoshop</h6>
+              <div class="amber-text text-darken-4"><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i></div>
+            </div>
+          </div>
+          <div class="col s6 center-align">
+            <div class="col s12">
+              <h6>jQuery</h6>
+              <div class="amber-text text-darken-4"><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i></div>
+            </div>
+            <div class="col s12">
+              <h6>BootStrap</h6>
+              <div class="amber-text text-darken-4"><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i></div>
+            </div>
+            <div class="col s12">
+              <h6>Sass</h6>
+              <div class="amber-text text-darken-4"><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i></div>
+            </div>
+            <div class="col s12">
+              <h6>Responsive Design</h6>
+              <div class="amber-text text-darken-4"><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i></div>
+            </div>
+            <div class="col s12">
+              <h6>GitHub</h6>
+              <div class="amber-text text-darken-4"><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i></div>
+            </div>
+            <div class="col s12">
+              <h6>Material Design</h6>
+              <div class="amber-text text-darken-4"><i class="tiny material-icons center-align">stars</i><i class="tiny material-icons center-align">stars</i></div>
+            </div>
+            <div class="col s12">
+              <h6>React</h6>
+              <div class="amber-text text-darken-4"><i class="tiny material-icons center-align">stars      </i></div>
+            </div>
+          </div>
+        </div>
+        <div class="hide-on-small-only">
+          <div class="col s12 m6">             
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <h5>HTML</h5>
+                  </td>
+                  <td class="amber-text text-darken-4"><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
+                </tr>
+                <tr>
+                  <td> 
+                    <h5>CSS</h5>
+                  </td>
+                  <td class="amber-text text-darken-4"><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
+                </tr>
+                <tr>
+                  <td> 
+                    <h5>JavaSript</h5>
+                  </td>
+                  <td class="amber-text text-darken-4"><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
+                </tr>
+                <tr>
+                  <td> 
+                    <h5>Jade</h5>
+                  </td>
+                  <td class="amber-text text-darken-4"><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
+                </tr>
+                <tr>
+                  <td> 
+                    <h5>Git</h5>
+                  </td>
+                  <td class="amber-text text-darken-4"><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
+                </tr>
+                <tr>
+                  <td> 
+                    <h5>Node.js</h5>
+                  </td>
+                  <td class="amber-text text-darken-4"><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
+                </tr>
+                <tr>
+                  <td> 
+                    <h5>Photoshop</h5>
+                  </td>
+                  <td class="amber-text text-darken-4"><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col s12 m6">
+            <table>
+              <tbody>
+                <tr>
+                  <td> 
+                    <h5>jQuery</h5>
+                  </td>
+                  <td class="amber-text text-darken-4"><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
+                </tr>
+                <tr>
+                  <td> 
+                    <h5>BootStrap</h5>
+                  </td>
+                  <td class="amber-text text-darken-4"><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
+                </tr>
+                <tr>
+                  <td> 
+                    <h5>Sass</h5>
+                  </td>
+                  <td class="amber-text text-darken-4"><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
+                </tr>
+                <tr>
+                  <td> 
+                    <h5>Responsive Design</h5>
+                  </td>
+                  <td class="amber-text text-darken-4"><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
+                </tr>
+                <tr>
+                  <td> 
+                    <h5>GitHub</h5>
+                  </td>
+                  <td class="amber-text text-darken-4"><i class="small material-icons">stars</i><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
+                </tr>
+                <tr>
+                  <td> 
+                    <h5>Material Design</h5>
+                  </td>
+                  <td class="amber-text text-darken-4"><i class="small material-icons">stars</i><i class="small material-icons">stars</i></td>
+                </tr>
+                <tr>
+                  <td> 
+                    <h5>React</h5>
+                  </td>
+                  <td class="amber-text text-darken-4"><i class="small material-icons">stars</i></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
       <div id="my-work" class="row">
+        <h1 class="hide-on-small-only center-align section">What I've Made</h1>
+        <h3 class="hide-on-med-and-up center-align section">What I've Made</h3>
+        <div class="divider"></div>
         <div class="col s12 m6">
           <div class="card">
-            <div class="card-image"><img src="img/tic-tac-toe.png"><span class="card-title">Tic Tac Toe</span></div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            <div class="card-image waves-effect waves-block waves-light"><img src="img/tic-tac-toe.png" class="activator"></div>
+            <div class="card-content"><span class="card-title activator grey-text text-darken-4">Tic Tac Toe<i class="material-icons right">more_vert</i></span>
+              <p><a href="http://codepen.io/mrmatt1877/full/oxdbXg" class="blue-text text-darken-4">View the code</a></p>
             </div>
-            <div class="card-action"><a href="#" class="blue-text text-darken-4">View the code</a></div>
+            <div class="card-reveal"><span class="card-title activator grey-text text-darken-4">Tic Tac Toe<i class="material-icons right">close</i>
+                <h4>Try to get three in a row, in this classic paper and pencil game.</h4>
+                <p>Designed to be defensive because not being able to win is no fun.</p>
+                <div class="row">
+                  <div class="col s6">
+                    <h6>HTML</h6>
+                    <h6>CSS </h6>
+                    <h6>BootStrap</h6>
+                  </div>
+                  <div class="col s6">
+                    <h6>JavaSript</h6>
+                    <h6>jQuery</h6>
+                  </div>
+                </div></span></div>
           </div>
         </div>
         <div class="col s12 m6">
           <div class="card">
-            <div class="card-image"><img src="img/connect-four.png"><span class="card-title">Tic Tac Toe</span></div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            <div class="card-image waves-effect waves-block waves-light"><img src="img/connect-four.png" class="activator"></div>
+            <div class="card-content"><span class="card-title activator grey-text text-darken-4">Connect Four<i class="material-icons right">more_vert</i></span>
+              <p><a href="http://codepen.io/mrmatt1877/full/PNBGNP/" class="blue-text text-darken-4">View the code</a></p>
             </div>
-            <div class="card-action"><a href="#">View the code</a></div>
+            <div class="card-reveal"><span class="card-title activator grey-text text-darken-4">Connect Four<i class="material-icons right">close</i>
+                <h4>The classic board game.</h4>
+                <p>Designed with the color scheme of the original. Built to simulate that old school feel.</p>
+                <div class="row">
+                  <div class="col s6">
+                    <h6>HTML</h6>
+                    <h6>CSS </h6>
+                    <h6>BootStrap</h6>
+                  </div>
+                  <div class="col s6">
+                    <h6>JavaSript</h6>
+                    <h6>jQuery</h6>
+                  </div>
+                </div></span></div>
           </div>
         </div>
         <div class="col s12 m6">
           <div class="card">
-            <div class="card-image"><img src="img/simon.png"><span class="card-title">Tic Tac Toe</span></div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            <div class="card-image waves-effect waves-block waves-light"><img src="img/simon.png" class="activator"></div>
+            <div class="card-content"><span class="card-title activator grey-text text-darken-4">Simon<i class="material-icons right">more_vert</i></span>
+              <p><a href="http://codepen.io/mrmatt1877/full/YqjrOx" class="blue-text text-darken-4">View the code</a></p>
             </div>
-            <div class="card-action"><a href="#">View the code</a></div>
+            <div class="card-reveal"><span class="card-title activator grey-text text-darken-4">Simon<i class="material-icons right">close</i>
+                <h4>Can you keep up?</h4>
+                <p>Designed with a strict mode where if you miss a beat you fail and a casual mode.</p>
+                <div class="row">
+                  <div class="col s6">
+                    <h6>HTML</h6>
+                    <h6>CSS </h6>
+                    <h6>BootStrap</h6>
+                  </div>
+                  <div class="col s6">
+                    <h6>JavaSript</h6>
+                    <h6>jQuery</h6>
+                  </div>
+                </div></span></div>
           </div>
         </div>
         <div class="col s12 m6">
           <div class="card">
-            <div class="card-image"><img src="img/calculator.png"><span class="card-title">Tic Tac Toe</span></div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            <div class="card-image waves-effect waves-block waves-light"><img src="img/calculator.png" class="activator"></div>
+            <div class="card-content"><span class="card-title activator grey-text text-darken-4">Calculator<i class="material-icons right">more_vert</i></span>
+              <p><a href="http://codepen.io/mrmatt1877/full/oxwrRM" class="blue-text text-darken-4">View the code</a></p>
             </div>
-            <div class="card-action"><a href="#">View the code</a></div>
+            <div class="card-reveal"><span class="card-title activator grey-text text-darken-4">Calculator<i class="material-icons right">close</i>
+                <h4>What else is there to explain?</h4>
+                <p>Designed to do simple computations.</p>
+                <div class="row">
+                  <div class="col s6">
+                    <h6>HTML</h6>
+                    <h6>CSS </h6>
+                    <h6>BootStrap</h6>
+                  </div>
+                  <div class="col s6">
+                    <h6>JavaSript</h6>
+                    <h6>jQuery</h6>
+                  </div>
+                </div></span></div>
           </div>
         </div>
         <div class="col s12 m6">
           <div class="card">
-            <div class="card-image"><img src="img/wiki-viewer.png"><span class="card-title">Tic Tac Toe</span></div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            <div class="card-image waves-effect waves-block waves-light"><img src="img/wiki-viewer.png" class="activator"></div>
+            <div class="card-content"><span class="card-title activator grey-text text-darken-4">Wikipedia Viewer<i class="material-icons right">more_vert</i></span>
+              <p><a href="http://codepen.io/mrmatt1877/full/BKQVxa" class="blue-text text-darken-4">View the code</a></p>
             </div>
-            <div class="card-action"><a href="#">View the code</a></div>
+            <div class="card-reveal"><span class="card-title activator grey-text text-darken-4">Wikipedia Viewer<i class="material-icons right">close</i>
+                <h4>A better looking search page for Wikipedia.</h4>
+                <p>When the user inputs their data, a request is made to Wikipedia and the data is returned and beautified.</p>
+                <div class="row">
+                  <div class="col s6">
+                    <h6>HTML</h6>
+                    <h6>CSS </h6>
+                    <h6>BootStrap</h6>
+                    <h6>Wikipedia api</h6>
+                  </div>
+                  <div class="col s6">
+                    <h6>JavaSript</h6>
+                    <h6>jQuery</h6>
+                    <h6>JSON</h6>
+                    <h6>AJAX</h6>
+                  </div>
+                </div></span></div>
           </div>
         </div>
         <div class="col s12 m6">
           <div class="card">
-            <div class="card-image"><img src="img/quote-generator.png"><span class="card-title">Tic Tac Toe</span></div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            <div class="card-image waves-effect waves-block waves-light"><img src="img/quote-generator.png" class="activator"></div>
+            <div class="card-content"><span class="card-title activator grey-text text-darken-4">Motivational Quote Generator<i class="material-icons right">more_vert</i></span>
+              <p><a href="http://codepen.io/mrmatt1877/full/aNvYbB" class="blue-text text-darken-4">View the code</a></p>
             </div>
-            <div class="card-action"><a href="#">View the code</a></div>
+            <div class="card-reveal"><span class="card-title activator grey-text text-darken-4">Motivational Quote Generator<i class="material-icons right">close</i>
+                <h4>Click the button to get a quote... and another one.</h4>
+                <p>Designed to randomly select a quote from an array of proven and effective motivational quotes.</p>
+                <div class="row">
+                  <div class="col s6">
+                    <h6>HTML</h6>
+                    <h6>CSS </h6>
+                    <h6>BootStrap</h6>
+                  </div>
+                  <div class="col s6">
+                    <h6>JavaSript</h6>
+                    <h6>jQuery</h6>
+                  </div>
+                </div></span></div>
           </div>
         </div>
       </div>
     </div>
+    <footer id="contact" class="page-footer blue-grey">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Here's how you can reach me.</h5>
+            <p class="grey-text text-lighten-2">Feel free to contact me with any questions or feedback you have about this site. If you want to know more about how I got started coding, I am open to talk about it or point you in the right direction.</p>
+            <p class="grey-text text-lighten-2">If you are wanting to hire me, please send me an email and we can start a dialoge.</p>
+          </div>
+          <div class="col l4 offset-12 s12">
+            <h5 class="white-text">Contact </h5>
+            <ul>
+              <li class="btn-pad"><a href="mailto:matthewebdev@gmail.com" class="btn grey darken-4">Email<i class="material-icons right">email</i></a></li>
+              <li class="btn-pad"><a href="https://github.com/mrmatt1877" class="btn grey darken-4">GitHub<i class="material-icons right">code</i></a></li>
+              <li class="btn-pad"><a href="https://www.freecodecamp.com/mrmatt1877" class="btn grey darken-4">freeCodeCamp<i class="material-icons right">forum</i></a></li>
+              <li class="btn-pad"><a href="https://www.linkedin.com/in/matthewsrobertson" class="btn grey darken-4">LinkedIn<i class="material-icons right">person_pin</i></a></li>
+              <li class="btn-pad"><a href="img/Matthew Robertson.pdf" download class="btn grey darken-4">Resume<i class="material-icons right">work</i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container center-align">© 2016 Matthew Robertson</div>
+      </div>
+    </footer>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/index.js"></script>
